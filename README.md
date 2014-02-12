@@ -61,6 +61,25 @@ Copy the whole directory structure above to wherever you serve your node plugins
 var flox = require('flox')({});
 ```
 
+### Wow.  Such Package.  Many Debug.  So Config.
+
+Config options are simple:
+
+```javascript
+format: 'DD/MM/YYYY', 'MM/DD/YYYY' or 'YYYY/MM/DD' - /*as string*/
+longfiles: true/false  - /*whether the pathname output is shortened or not*/
+debug: true/false - /*whether to show filenames at all*/
+```
+Used in the following manner:
+```
+var flox = require('flox')({
+	'format': 'DD/MM/YYYY',
+	'longfiles': true,
+	'debug': true
+});
+```
+
+
 ### License
 Copyright (C) 2014 Stephen C Wright <ste.c.wr@gmail.com>
 
