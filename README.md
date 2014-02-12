@@ -52,13 +52,13 @@ Via NPM:
 npm install flox-node
 ```
 ```javascript
-var flox = require('flox')({});
+var flox = require('flox-node')({});
 ```
 
 Manually:
 Copy the whole directory structure above to wherever you serve your node plugins from.
 ```javascript
-var flox = require('flox')({});
+var flox = require('flox-node')({});
 ```
 
 ### Wow.  Such Package.  Many Debug.  So Config.
@@ -72,7 +72,7 @@ debug: true/false - /*whether to show filenames at all*/
 ```
 Used in the following manner:
 ```
-var flox = require('flox')({
+var flox = require('flox-node')({
 	'format': 'DD/MM/YYYY',
 	'longfiles': true,
 	'debug': true
